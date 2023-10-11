@@ -1,6 +1,13 @@
 /* core/layout/main-layout/main-layout.component.scss */
 
-mat-toolbar {
-    background-color: #1976d2; 
+.spacer {
+  flex: 1 0 auto;
+}
+
+button {
+  margin: 0 10px;
+  &.active {
+    filter:brightness(120%)
   }
-  
+}
+
